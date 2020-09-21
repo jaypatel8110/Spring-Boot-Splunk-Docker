@@ -1,34 +1,4 @@
-## Build
 
-Build the application as a [Docker](https://www.docker.com/) image using:
-
-```bash
-mvn clean install
-```
-## Dockerization
-
-### Maven
-wouterd
-alexec
-spotify
-fabric8io
-
-Here i am using maven spotify plugin to create the docker image for this application.
-Use the below command to create the docker image.
-For creating please use your repository to create the image which will be easy to push image in your docker hub.
-update in your pom.xml.
-<docker.image.prefix> <your repo name> </docker.image.prefix>
-
-```bash
-$ mvn install dockerfile:build
-```
-## Run
-
-Run the included docker-compose file with:
-
-```bash
-docker-compose up
-```
 
 ## Generate logs
 
